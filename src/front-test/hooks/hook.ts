@@ -1,13 +1,5 @@
-import {
-  chromium,
-  Browser,
-  Page
-} from 'playwright';
-import {
-  AfterAll,
-  setDefaultTimeout,
-  Before
-} from '@cucumber/cucumber';
+import {chromium,Browser,Page} from 'playwright';
+import {AfterAll,setDefaultTimeout,Before} from '@cucumber/cucumber';
 
 let page: Page;
 let browser: Browser;

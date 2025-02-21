@@ -1,21 +1,13 @@
 import { expect } from '@playwright/test';
 import { Given, When, Then } from '@cucumber/cucumber';
-import { BASEURL } from '../config';
+import { BASEURL1 } from '../config';
 import { page } from '../hooks/hook';
 import { validateFirstLocator } from '../utils/validations';
-import {
-  inputLabel,
-  buttonSearch,
-  divResult
-} from '../locators/exampleLocators';
-import {
-  getByPlaceholderAndClickIt,
-  getByPlaceholderAndFillIt,
-  getElementByRole
-} from '../utils/interactions';
+import {inputLabel,buttonSearch,divResult} from '../locators/exampleLocators';
+import {getByPlaceholderAndClickIt,getByPlaceholderAndFillIt,getElementByRole} from '../utils/interactions';
 
 Given("User navigates to MercadoLibre page", async () => {
-  await page.goto(BASEURL);
+  await page.goto(BASEURL1);
 });
 
 When('User search for cars options', async function () {

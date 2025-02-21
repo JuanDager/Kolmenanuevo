@@ -1,3 +1,3 @@
 import 'dotenv/config'
 
-export const BASEURL = process.env.BASEURL;
+export const BASEURL1 = process.env.BASEURL1;

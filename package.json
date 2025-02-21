@@ -10,7 +10,7 @@
     "load-report": "npx artillery report src/reports/performance/report.json"
   },
   "keywords": [],
-  "author": "Gianella Vezzoni - Danilo Vezzoni - Maximiliano Pintos",
+  "author": "",
   "license": "ISC",
   "description": "Playwright automation framework",
   "devDependencies": {
